@@ -1,0 +1,88 @@
+---
+title: "Sample Report"
+subtitle: "Subtitle"
+author: "Raza Rafique"
+date: "2025-01-18"
+toc: True
+echo: True
+format: 
+    html: default
+---
+
+# Title
+
+## Test Python
+Quarto is a powerful tool for creating **dynamic documents** and *interactive reports*. It supports multiple programming languages, including **Python**, **R**, and **Julia**, making it versatile for data analysis and visualization. You can use *Markdown syntax* to format your text, such as making it **bold**, *italic*, or even combining both for ***emphasis***. This flexibility ensures that you can create **professional-looking documents** with ease.
+
+## Bullet Points Example
+
+Here is a simple list of items:
+
+- **Fruits**: 
+  - Apple
+  - Banana
+  - Orange
+- **Vegetables**:
+  - Carrot
+  - Broccoli
+  - Spinach
+- **Dairy Products**:
+  - Milk
+  - Cheese
+  - Yogurt
+
+## Ordered List Example
+
+Here is a simple ordered list of steps:
+
+1. **Plan Your Project**:
+   - Define goals.
+   - Identify resources.
+2. **Develop the Solution**:
+   - Write code.
+   - Test the implementation.
+3. **Deploy and Monitor**:
+   - Deploy the project.
+   - Monitor performance and gather feedback.
+
+## Ordered List with Letters
+
+Here is an ordered list using letters:
+
+a. **Choose a Topic**:
+   - Brainstorm ideas.
+   - Select a focus area.
+b. **Research the Topic**:
+   - Gather relevant information.
+   - Organize key points.
+c. **Create the Content**:
+   - Write the draft.
+   - Revise and edit.
+   
+```{python}
+print("Hello World")
+```
+
+## Test Pandas Matplotlib
+```{python}
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Example data: creating a DataFrame
+data = {
+    'Age': [23, 45, 31, 22, 45, 37, 28, 33, 40, 29, 31, 25, 34, 27, 39]
+}
+df = pd.DataFrame(data)
+
+# Plotting the histogram
+plt.hist(df['Age'], bins=5, edgecolor='black', color='skyblue')
+
+# Adding labels and title
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.title('Age Distribution')
+
+# Display the plot
+plt.show()
+```
