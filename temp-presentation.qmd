@@ -1,12 +1,12 @@
 ---
-title: "Sample Report"
-subtitle: "Subtitle"
+title: "Heavenly Chocolates Customer Analysis"
 author: "Raza Rafique"
-date: "2025-01-18"
-toc: True
-echo: False
+date: today
 format: 
-    revealjs: default
+  revealjs:
+    self-contained: true
+toc: true
+toc-title: "Table of Contents"
 ---
 
 # Title
