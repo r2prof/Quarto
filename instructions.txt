@@ -1,0 +1,3 @@
+quarto render test.qmd --to html --embed-resources
+
+quarto render test.qmd --to revealjs --embed-resources
