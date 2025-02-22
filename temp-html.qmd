@@ -1,7 +1,8 @@
 ---
-title: "Heavenly Chocolates Customer Analysis"
+title: "ABC Analysis"
 author: "Raza Rafique"
 date: today
+echo: false
 format: 
   html:
     self-contained: true
