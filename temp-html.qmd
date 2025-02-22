@@ -2,7 +2,7 @@
 title: "ABC Analysis"
 author: "Raza Rafique"
 date: today
-echo: false
+echo: true
 format: 
   html:
     self-contained: true
